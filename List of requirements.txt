@@ -1,0 +1,13 @@
+1. Member Registration and Profile Management: Members should be able to register and manage their profiles, setting personal fitness goals and inputting health metrics.
+
+2. Training Sessions (Classes): The platform will allow members to join training sessions with certified trainers.
+
+3. Trainer Tools: The system should empower trainers with tools to manage their schedules, and input progress notes after each training session.
+
+4. Administrative Features: Administrative staff features that allow them to monitor fitness equipment maintenance and process transactions.
+
+5. Billing and Payments: Process payments for membership fees, personal training sessions, and other services.
+
+6. Loyalty Program: Every transaction earns members loyalty points, which can be redeemed for future services.
+
+These requirements were used to identify the entities (Member, Trainer, Admin, Session, Transaction, FitnessGoal, HealthMetric, ProgressNote, Equipment, CheckedDates) and their relationships for the database design.

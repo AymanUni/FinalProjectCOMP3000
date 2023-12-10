@@ -1,0 +1,14 @@
+FD1: Member: MemberID -> Name, Email, Password, LoyaltyPoints
+FD2: Session: SessionID -> Date, Time, MemberID, TrainerID
+FD3: ProgressNote: NoteID -> Content, Date, MemberID, TrainerID
+FD4: Trainer: TrainerID -> Name, Email, Password
+FD5: FitnessGoal: GoalID -> Description, MemberID
+FD6: HealthMetric: MetricID -> Type, Value, Date, MemberID
+FD7: Transaction: TransactionID -> Date, Time, Amount, Service, MemberID, AdminID
+FD8: Admin: AdminID -> Name, Email, Password
+FD9: Equipment: EquipmentID -> Name, Status, AdminID
+FD10: CheckedDates: EquipmentID -> CheckedDates
+
+Since all non-prime attributes are fully functionally dependent on the primary key in each relation, all relations are in 2NF.
+Additionally, there are no transitive dependencies in any of the relations, so all relations are in 3NF.
+Therefore, the database is in 2NF and 3NF.
